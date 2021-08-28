@@ -17,7 +17,7 @@
 * screenshot of the final website taken and added to images folder 
 
 ## Image of refactored website
-[Webpage Screenshot](horesion.github.io/develop/assets/images/code-refactor-assignment1.png)
+[Webpage Screenshot](/develop/assets/images/code-refactor-assignment1.png)
 
 ## Resources used
 * figure attributes: W3 Schools  https://www.w3schools.com/howto/howto_css_blurred_background.asp and https://www.w3schools.com/accessibility/accessibility_labels.php 
