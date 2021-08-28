@@ -10,10 +10,12 @@
 
 <body>
     <!-- created  header semantic element with class "header" in place of div -->
+   
     <header class="header">
          <h1>Hori<span class="seo">seo</span>n</h1>
-         <!-- created navigation semantic element in place of div -->
-         <!-- navigation section -->
+      
+         <!-- navigation section - created navigation semantic element in place of div -->
+   
          <nav>
            <ul>
                <li>
@@ -31,13 +33,14 @@
  
     <!-- background hero image - changed div to semantic element "figure" with class "hero", role and aria-label attributes,
     Source:https://www.w3schools.com/howto/howto_css_blurred_background.asp and https://www.w3schools.com/accessibility/accessibility_labels.php  -->
+   
     <figure
     class="hero"
     role="img"
     aria-label="Employees of Horesion in meeting with cup of coffee or tea">
     </figure>
    
-        
+
     <!-- main content - providing main semantic element to contain main content of the site with class "content" to replace corresponding div -->
    
     <main class="content">
@@ -87,32 +90,43 @@
                 </p>
             </article>
         </section>
+
+        <!-- benefits section remove divs and provide section and article tags along with alt attribute with empty ""
+        Source University of Toronto Boot Camp Material run-buddy project https://courses.bootcampspot.com/courses/762/pages/1-dot-4-4-add-new-icon-images?module_item_id=275804 -->
+        
+        <section class="benefits">
+            <article class="benefit-lead">
+                <h3>Lead Generation</h3>
+                <img src="./assets/images/lead-generation.png" alt="" />
+                <p>
+                    Inbound strategies for lead generation require less work for your business, bringing customers directly to
+                    your
+                    website.
+                </p>
+            </article>
+        
+            <article class="benefit-brand">
+                <h3>Brand Awareness</h3>
+                <img src="./assets/images/brand-awareness.png" alt="" />
+                <p>
+                    Users find your business through paid and organic searches, increasing the search ranking and visibility for
+                    your
+                    business.
+                </p>
+            </article>
+            <article class="benefit-cost">
+                <h3>Cost Management</h3>
+                <!-- removing closing img tag and add "/" before ">" in the img tag -->
+                <img src="./assets/images/cost-management.png" alt="" />
+                <p>
+                    As the search ranking for your business increases, your advertising costs decrease, and you no longer need
+                    to
+                    advertise your page.
+                </p>
+            </article>
+        </section>
     </main>
 
-    
-    <div class="benefits">
-        <div class="benefit-lead">
-            <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </div>
-        <div class="benefit-brand">
-            <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </div>
-        <div class="benefit-cost">
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </div>
-    </div>
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
