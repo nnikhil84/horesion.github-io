@@ -11,7 +11,13 @@
 * Given alt attributes to all img tags in services section
 * Benefits section created with section semantic element with class benefits instead of div with same class
 * empty alt attributes for all img tags in  benefits section
+* Footer semantic element with class footer added in place of div of same class
+* final indentation and spacing provided to the content of index.html
+* style.css file code minor changes to adjust the content of the website
+* screenshot of the final website taken and added to images folder 
 
+## Image of refactored website
+[Webpage Screenshot] (/horesion.github.io/develop/assets/images/code-refactor-assignment1.png)
 
 ## Resources used
 * figure attributes: W3 Schools  https://www.w3schools.com/howto/howto_css_blurred_background.asp and https://www.w3schools.com/accessibility/accessibility_labels.php 
