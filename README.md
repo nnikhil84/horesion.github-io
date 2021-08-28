@@ -19,6 +19,14 @@
 ## Image of refactored website
 ![Webpage Screenshot](/assets/images/code-refactor-assignment1.png)
 
+## Link of deployed application
+
+* https://nnikhil84.github.io/horesion.github.io/ 
+
+## Link of git hub repository
+
+* https://github.com/nnikhil84/horesion.github.io
+
 ## Resources used
 * figure attributes: W3 Schools  https://www.w3schools.com/howto/howto_css_blurred_background.asp and https://www.w3schools.com/accessibility/accessibility_labels.php 
 * empty alt attributes: University of Toronto Boot Camp Material https://courses.bootcampspot.com/courses/762/pages/1-dot-4-4-add-new-icon-images?module_item_id=275804
